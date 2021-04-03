@@ -23,6 +23,25 @@ namespace RestaurantView {
 			//TODO: Add the constructor code here
 			//
 		}
+		
+		System::String^ InitializeConnection() {
+			try {
+				String^ conStr = System::Configuration::ConfigurationManager::AppSettings[0];
+				MySqlConnection^ con = gcnew MySqlConnection(conStr);
+
+				// Test the data
+				MySqlDataAdapter^ sda = gcnew MySqlDataAdapter("SELECT * FROM restaurant ORDER BY restaurantID", con);
+				DataTable^ dt = gcnew DataTable();
+				sda->Fill(dt);
+
+				return conStr;
+			}
+
+			catch (Exception ^ ex) {
+				MessageBox::Show(ex->Message, "Error:");
+				return "UNDEFINED";
+			}
+		}
 
 		String^ conStr = InitializeConnection();
 
@@ -1067,26 +1086,6 @@ namespace RestaurantView {
 		}
 
 #pragma endregion
-	// RETURNS CONNECTION STR
-	private: System::String^ InitializeConnection() {
-		try {
-			String^ conStr = System::Configuration::ConfigurationManager::AppSettings[0];
-			MySqlConnection^ con = gcnew MySqlConnection(conStr);
-
-			// Test the data
-			MySqlDataAdapter^ sda = gcnew MySqlDataAdapter("SELECT * FROM restaurant ORDER BY restaurantID", con);
-			DataTable^ dt = gcnew DataTable();
-			sda->Fill(dt);
-
-			return conStr;
-		}
-
-		catch (Exception ^ ex) {
-			MessageBox::Show(ex->Message, "Error:");
-			return "UNDEFINED";
-		}
-	}
-
 	// RETURNS TRUE IF THE STRING CONTAINS ILLEGAL CHARACTERS
 	private: bool containsIllegal(String^ in) {
 		String^ illegalChars = "();'";
