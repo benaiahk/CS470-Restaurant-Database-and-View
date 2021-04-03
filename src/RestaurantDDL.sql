@@ -58,7 +58,7 @@ DELIMITER //
             ELSEIF NEW.itemCount < 30 THEN
                 SET NEW.itemStatus = 'lo_stock';
             ELSEIF NEW.itemcount>=30 THEN
-				SET NEW.itemStatus = 'in_stock'; 
+		SET NEW.itemStatus = 'in_stock'; 
             END IF;
         END;//
 DELIMITER ;
