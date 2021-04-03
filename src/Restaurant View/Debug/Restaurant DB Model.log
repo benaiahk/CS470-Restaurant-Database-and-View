@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Restaurant DB Model.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Model.cpp
+C:\Users\benai\OneDrive\Documents\CS 470 Restaurant Database\Application Source Code\Restaurant DB Model\Model.h(1095,18): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\benai\OneDrive\Documents\CS 470 Restaurant Database\Application Source Code\Restaurant DB Model\Model.h(1096,18): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\benai\OneDrive\Documents\CS 470 Restaurant Database\Application Source Code\Restaurant DB Model\Model.cpp(6,32): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Model.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Restaurant DB Model.vcxproj -> C:\Users\benai\OneDrive\Documents\CS 470 Restaurant Database\Application Source Code\Debug\Restaurant View.exe
+          1 file(s) copied.

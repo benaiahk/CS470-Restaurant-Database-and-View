@@ -7,6 +7,6 @@ void main(array<String^>^ arg) {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 
-	RestaurantDBModel::Model form;
+	RestaurantView::Model form;
 	Application::Run(% form);
 }

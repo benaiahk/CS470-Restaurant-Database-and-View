@@ -1,0 +1,8 @@
+C:\Users\benai\OneDrive\Documents\CS 470 Restaurant Database\Application Source Code\Restaurant View\Debug\Restaurant View.vcxprojAssemblyReference.cache
+C:\Users\benai\OneDrive\Documents\CS 470 Restaurant Database\Application Source Code\Restaurant View\Debug\RestaurantView.Model.resources
+C:\Users\benai\OneDrive\Documents\CS 470 Restaurant Database\Application Source Code\Restaurant View\Debug\Restaurant View.vcxproj.GenerateResource.cache
+C:\Users\benai\OneDrive\Documents\CS 470 Restaurant Database\Application Source Code\Restaurant View\Debug\Restaurant View.vcxproj.CopyComplete
+C:\Users\benai\OneDrive\Documents\VS Code\CS470-Restaurant-Database-and-View\src\Restaurant View\Debug\Restaurant View.vcxprojAssemblyReference.cache
+C:\Users\benai\OneDrive\Documents\VS Code\CS470-Restaurant-Database-and-View\src\Restaurant View\Debug\RestaurantView.Model.resources
+C:\Users\benai\OneDrive\Documents\VS Code\CS470-Restaurant-Database-and-View\src\Restaurant View\Debug\Restaurant View.vcxproj.GenerateResource.cache
+C:\Users\benai\OneDrive\Documents\VS Code\CS470-Restaurant-Database-and-View\src\Restaurant View\Debug\Restaurant View.vcxproj.CopyComplete

@@ -1,0 +1,4 @@
+C:\Users\benai\OneDrive\Documents\CS 470 Restaurant Database\Application Source Code\Restaurant DB Model\Debug\Restaurant DB Model.vcxprojAssemblyReference.cache
+C:\Users\benai\OneDrive\Documents\CS 470 Restaurant Database\Application Source Code\Restaurant DB Model\Debug\Restaurant DB Model.vcxproj.GenerateResource.cache
+C:\Users\benai\OneDrive\Documents\CS 470 Restaurant Database\Application Source Code\Restaurant DB Model\Debug\Restaurant DB Model.vcxproj.CopyComplete
+C:\Users\benai\OneDrive\Documents\CS 470 Restaurant Database\Application Source Code\Restaurant DB Model\Debug\RestaurantView.Model.resources

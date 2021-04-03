@@ -27,12 +27,4 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="Model Test Log.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="DB Test Log.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-  </ItemGroup>
 </Project>
