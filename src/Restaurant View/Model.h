@@ -26,75 +26,7 @@ namespace RestaurantDBModel {
 
 		Boolean^ isOkay = true;
 		String^ conStr = InitializeConnection();
-
-	private: System::Windows::Forms::CheckBox^ showEmployees;
-	private: System::Windows::Forms::Button^ eraddrSearch;
-
-	private: System::Windows::Forms::TextBox^ eraddrTextBox;
-
-	private: System::Windows::Forms::Label^ eraddrLabel;
-	private: System::Windows::Forms::Button^ ernameSearch;
-
-
-
-	private: System::Windows::Forms::TextBox^ ernameTextBox;
-
-	private: System::Windows::Forms::Label^ ernameLabel;
-	private: System::Windows::Forms::Button^ eridSearch;
-
-
-
-	private: System::Windows::Forms::TextBox^ eridTextBox;
-	private: System::Windows::Forms::Button^ rmShowAll;
-
-	private: System::Windows::Forms::GroupBox^ stockStatusBox;
-	private: System::Windows::Forms::CheckBox^ noStockCh;
-
-
-	private: System::Windows::Forms::CheckBox^ loStockCh;
-
-	private: System::Windows::Forms::CheckBox^ inStockCh;
-
-	private: System::Windows::Forms::GroupBox^ itemTypeBox;
-	private: System::Windows::Forms::CheckBox^ rmiDrinkCh;
-
-
-	private: System::Windows::Forms::CheckBox^ rmiFoodCh;
-
-	private: System::Windows::Forms::Button^ rmSearch;
-	private: System::Windows::Forms::Button^ rmicountSearch;
-
-
-	private: System::Windows::Forms::TextBox^ rmicountTextBox;
-
-	private: System::Windows::Forms::Label^ rmicountLabel;
-	private: System::Windows::Forms::Button^ rminameSearch;
-
-
-	private: System::Windows::Forms::TextBox^ rminameTextBox;
-
-	private: System::Windows::Forms::Label^ rminameLabel;
-
-
-	private: System::Windows::Forms::Button^ rmnameSearch;
-
-	private: System::Windows::Forms::Button^ rmidSearch;
-	private: System::Windows::Forms::TextBox^ rmnameTextBox;
-
-
-	private: System::Windows::Forms::Label^ rmnameLabel;
-
-	private: System::Windows::Forms::TextBox^ rmidTextBox;
-
-	private: System::Windows::Forms::Label^ rmidLabel;
-	private: System::Windows::Forms::Button^ rmstatusSearch;
-
-
-	private: System::Windows::Forms::Button^ button7;
-
-	private: System::Windows::Forms::Label^ eridLabel;
-
-
+		
 	protected:
 		/// <summary>
 		/// Clean up any resources being used.
@@ -106,14 +38,42 @@ namespace RestaurantDBModel {
 				delete components;
 			}
 		}
+
+	private: System::Windows::Forms::CheckBox^ showEmployees;
+	private: System::Windows::Forms::Button^ eraddrSearch;
+	private: System::Windows::Forms::TextBox^ eraddrTextBox;
+	private: System::Windows::Forms::Label^ eraddrLabel;
+	private: System::Windows::Forms::Button^ ernameSearch;
+	private: System::Windows::Forms::TextBox^ ernameTextBox;
+	private: System::Windows::Forms::Label^ ernameLabel;
+	private: System::Windows::Forms::Button^ eridSearch;
+	private: System::Windows::Forms::TextBox^ eridTextBox;
+	private: System::Windows::Forms::Button^ rmShowAll;
+	private: System::Windows::Forms::GroupBox^ stockStatusBox;
+	private: System::Windows::Forms::CheckBox^ noStockCh;
+	private: System::Windows::Forms::CheckBox^ loStockCh;
+	private: System::Windows::Forms::CheckBox^ inStockCh;
+	private: System::Windows::Forms::GroupBox^ itemTypeBox;
+	private: System::Windows::Forms::CheckBox^ rmiDrinkCh;
+	private: System::Windows::Forms::CheckBox^ rmiFoodCh;
+	private: System::Windows::Forms::Button^ rmSearch;
+	private: System::Windows::Forms::Button^ rmicountSearch;
+	private: System::Windows::Forms::TextBox^ rmicountTextBox;
+	private: System::Windows::Forms::Label^ rmicountLabel;
+	private: System::Windows::Forms::Button^ rminameSearch;
+	private: System::Windows::Forms::TextBox^ rminameTextBox;
+	private: System::Windows::Forms::Label^ rminameLabel;
+	private: System::Windows::Forms::Button^ rmnameSearch;
+	private: System::Windows::Forms::Button^ rmidSearch;
+	private: System::Windows::Forms::TextBox^ rmnameTextBox;
+	private: System::Windows::Forms::Label^ rmnameLabel;
+	private: System::Windows::Forms::TextBox^ rmidTextBox;
+	private: System::Windows::Forms::Label^ rmidLabel;
+	private: System::Windows::Forms::Button^ rmstatusSearch;
+	private: System::Windows::Forms::Button^ button7;
+	private: System::Windows::Forms::Label^ eridLabel;
 	private: System::Windows::Forms::BindingSource^ bindingSRC;
 	private: System::Windows::Forms::DataGridView^ dataGridView;
-
-
-
-
-
-
 	private: System::Windows::Forms::TabPage^ empTab;
 	private: System::Windows::Forms::TabPage^ restTab;
 	private: System::Windows::Forms::TabControl^ modelTab;
@@ -123,106 +83,38 @@ namespace RestaurantDBModel {
 	private: System::Windows::Forms::Button^ rnameSearch;
 	private: System::Windows::Forms::Button^ ridSearch;
 	private: System::Windows::Forms::TextBox^ rcountTextBox;
-
 	private: System::Windows::Forms::Label^ rcountLabel;
-
 	private: System::Windows::Forms::TextBox^ rlocationTextBox;
-
 	private: System::Windows::Forms::Label^ rlocationLabel;
-
 	private: System::Windows::Forms::TextBox^ rnameTextBox;
-
 	private: System::Windows::Forms::Label^ rnameLabel;
-
 	private: System::Windows::Forms::TextBox^ ridTextBox;
-
 	private: System::Windows::Forms::Label^ ridLabel;
 	private: System::Windows::Forms::Button^ rShowAll;
-
-
-
-
-
 	private: System::Windows::Forms::Button^ rSearch;
 	private: System::Windows::Forms::Button^ ppaySearch;
-
 	private: System::Windows::Forms::TextBox^ ppayTextBox;
-
 	private: System::Windows::Forms::Label^ ppayLabel;
 	private: System::Windows::Forms::Button^ pnameSearch;
-
-
 	private: System::Windows::Forms::TextBox^ pnameTextBox;
-
 	private: System::Windows::Forms::Label^ pnameLabel;
 	private: System::Windows::Forms::Button^ pidSearch;
-
-
 	private: System::Windows::Forms::TextBox^ pidTextBox;
-
 	private: System::Windows::Forms::Label^ pidLabel;
-
 	private: System::Windows::Forms::Button^ eaddressSearch;
-
 	private: System::Windows::Forms::TextBox^ eaddressTextBox;
-
 	private: System::Windows::Forms::Label^ eaddressLabel;
-
 	private: System::Windows::Forms::Button^ enameSearch;
-
 	private: System::Windows::Forms::TextBox^ enameTextBox;
-
 	private: System::Windows::Forms::Label^ enameLabel;
-
 	private: System::Windows::Forms::Button^ eidSearch;
-
 	private: System::Windows::Forms::TextBox^ eidTextBox;
-
 	private: System::Windows::Forms::Label^ eidLabel;
 	private: System::Windows::Forms::Button^ epShowAll;
-
-
-
-
-
-
-
 	private: System::Windows::Forms::Button^ pSearch;
-
-
-
-
-
-
-
 	private: System::Windows::Forms::Button^ eSearch;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	protected:
-
 	private: System::ComponentModel::IContainer^ components;
-
+	
 	private:
 		/// <summary>
 		/// Required designer variable.
