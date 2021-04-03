@@ -1,6 +1,6 @@
 #pragma once
 
-namespace RestaurantDBModel {
+namespace RestaurantView {
 
 	using namespace System;
 	using namespace System::ComponentModel;
